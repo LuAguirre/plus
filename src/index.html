@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PlusTi web</title>
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/nav.css" />
-    <link rel="stylesheet" href="./styles/company.css" />
+    <title>PlusTi | Inicio</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../src/components/navbar/nav.css"/>
   </head>
   <body>
     <div class="app">
       <nav class="nav">
-        <div class="nav__container">
+        <div class="nav__container container">
           <div class="nav__image">
             <img
               alt="logo_plusti ACTUAL.png"
@@ -20,17 +20,21 @@
             />
           </div>
           <ul class="nav__items">
-            <li class="nav__item"><a href="">Inicio</a></li>
-            <li class="nav__item"><a href="/src/company.html">Compañia</a></li>
-            <li class="nav__item"><a href="">Soluciones</a></li>
-            <li class="nav__item"><a href="">Cursos</a></li>
-            <li class="nav__item"><a href="">Recursos</a></li>
-            <li class="nav__item"><a href="">Contacto</a></li>
+            <li class="nav__item"><a href="./index.html">Inicio</a></li>
+            <li class="nav__item"><a href="/src/pages/company/company.html">Compañia</a></li>
+            <li class="nav__item"><a href="./pages/solutions/solutions.html">Soluciones</a></li>
+            <li class="nav__item"><a href="./pages/courses/courses.html">Cursos</a></li>
+            <li class="nav__item"><a href="./pages/resources/resources.html">Recursos</a></li>
+            <li class="nav__item"><a href="./pages/contact/contact.html">Contacto</a></li>
           </ul>
         </div>
       </nav>
-      <section class="company">
-
+      <section class="index container">
+       <div class="podcast-container">
+         <h1 class="title-item">Mundo financiero seguro</h1>
+         <img alt="Microfono.png" src="https://static.wixstatic.com/media/cd9bec_1c74d93543ce4e3dbe2096e28855c9d8~mv2.png/v1/fill/w_457,h_430,al_c,q_85,usm_0.66_1.00_0.01/Microfono.webp" 
+         style="width: 200px; height: 200px; object-fit: cover;">
+       </div>
       </section>
     </div>
   </body>
