@@ -6,7 +6,7 @@
     <title>PlusTi | Inicio</title>
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="../src/components/navbar/nav.css"/>
+    <link rel="stylesheet" href="../src/components/navbar/nav.css" />
   </head>
   <body>
     <div class="app">
@@ -21,20 +21,116 @@
           </div>
           <ul class="nav__items">
             <li class="nav__item"><a href="./index.html">Inicio</a></li>
-            <li class="nav__item"><a href="/src/pages/company/company.html">Compañia</a></li>
-            <li class="nav__item"><a href="./pages/solutions/solutions.html">Soluciones</a></li>
-            <li class="nav__item"><a href="./pages/courses/courses.html">Cursos</a></li>
-            <li class="nav__item"><a href="./pages/resources/resources.html">Recursos</a></li>
-            <li class="nav__item"><a href="./pages/contact/contact.html">Contacto</a></li>
+            <li class="nav__item">
+              <a href="/src/pages/company/company.html">Compañia</a>
+            </li>
+            <li class="nav__item">
+              <a href="./pages/solutions/solutions.html">Soluciones</a>
+            </li>
+            <li class="nav__item">
+              <a href="./pages/courses/courses.html">Cursos</a>
+            </li>
+            <li class="nav__item">
+              <a href="./pages/resources/resources.html">Recursos</a>
+            </li>
+            <li class="nav__item">
+              <a href="./pages/contact/contact.html">Contacto</a>
+            </li>
           </ul>
         </div>
       </nav>
-      <section class="index container">
-       <div class="podcast-container">
-         <h1 class="title-item">Mundo financiero seguro</h1>
-         <img alt="Microfono.png" src="https://static.wixstatic.com/media/cd9bec_1c74d93543ce4e3dbe2096e28855c9d8~mv2.png/v1/fill/w_457,h_430,al_c,q_85,usm_0.66_1.00_0.01/Microfono.webp" 
-         style="width: 200px; height: 200px; object-fit: cover;">
-       </div>
+      <section class="company container">
+        <div class="company__grid">
+          <div class="company__description">
+            <h1 class="company__title">Plus Ti</h1>
+            <p class="company__subtext">
+              PLUS TI es una firma de desarrollo de software líder en soluciones
+              para la prevención de crímenes financieros y optimización de
+              procesos institucionales, con una larga trayectoria en la
+              industria y un compromiso con un mundo financiero más seguro.
+            </p>
+          </div>
+          <div class="company__information">
+            <p class="information__text">
+              El portafolio Monitor Plus® se basa en productos flexibles para el
+              monitoreo en tiempo real de operaciones financieras y no
+              financieras que combina avanzadas tecnologías de inteligencia
+              artificial (incluyendo machine learning) con conocimiento experto
+              para un análisis y defensa integral de baja fricción con el
+              cliente.
+            </p>
+            <div class="information__links">
+              <p class="paragraph">
+                Nuestra línea de productos provee cobertura en:
+              </p>
+              <ul class="links__list">
+                <li>Prevención de fraude</li>
+                <li>Cumplimiento</li>
+                <li>GRC-Gestión de riesgos y oportunidades</li>
+                <li>Auditoría</li>
+                <li>Negocios</li>
+                <li>Comercio Internacional</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="company__image">
+          <img
+            src="https://static.wixstatic.com/media/cd9bec_87e7e8fc13a942c599cf081835e46895~mv2_d_8000_4500_s_4_2.png/v1/crop/x_302,y_740,w_7381,h_3760/fill/w_968,h_548,al_c,q_90,usm_0.66_1.00_0.01/Plus%20TI%20perfil%20espa%C3%B1ol.webp"
+            style="width: 968px; height: 548px; object-fit: cover"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="survey container">
+        <div class="survey__text">
+          <h2 class="text__title">
+            Conozca los resultados de la
+            <span>Encuesta Latinoamérica 2020 </span> <br />
+            Prevención de Lavado de Activos y Gestión de Riesgo
+          </h2>
+        </div>
+        <div class="survey__links">
+          <img
+            alt=""
+            src="https://static.wixstatic.com/media/cd9bec_634364bd4c6b4b4aba1b478e83053b93~mv2.png/v1/fill/w_276,h_309,al_c,q_85,usm_0.66_1.00_0.01/cd9bec_634364bd4c6b4b4aba1b478e83053b93~mv2.webp"
+            class="survey__image"
+          />
+          <a href="" class="survey__button">Conocer más</a>
+        </div>
+      </section>
+
+      <section class="init">
+        <div class="grid container">
+          <div class="podcast">
+            <iframe
+              class="podcast__frame"
+              id="player_iframe"
+              src="https://www.buzzsprout.com/1309453?client_source=large_player&amp;iframe=true&amp;referrer=https://www.buzzsprout.com/1309453.js?container_id=buzzsprout-large-player-1309453&amp;player=large"
+              scrolling="no"
+              title="Mundo Financiero Seguro"
+              width="80%"
+              height="375"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="studyCase">
+            <span>Usos Creativos</span>
+            <span>Inspiración</span>
+            <span>Resultados</span>
+            <img
+              class="studyCaseImg"
+              src="https://static.wixstatic.com/media/cd9bec_942e1c3264334c59bda15e603603b667~mv2.png/v1/fill/w_303,h_278,al_c,q_85,usm_0.66_1.00_0.01/Header_casos_de_e%C3%8C%C2%81xito.webp"
+              style="width: 100px; height: 100px; object-fit: cover"
+            />
+            <a href="" class="studyCaseLink">Conocer Más</a>
+          </div>
+          <div class="certificationCourses">
+            <span>Enseñanza guiada y completa</span>
+            <span>con cursos en vivo</span>
+            <a href="" class="linkCertCourses">Ver más</a>
+          </div>
+        </div>
       </section>
     </div>
   </body>

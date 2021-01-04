@@ -1,11 +1,155 @@
+:root {
+  --section-margin: 6em;
+}
 .index {
-
 }
 
-.podcast-container{
-    background-color: #5093D0;
-    margin-top: top;
-    padding: top;
-    display: flex;
-    justify-content: left;
+.podcast-container {
+  background-color: #5093d0;
+  display: flex;
+  justify-content: left;
+}
+
+.company {
+}
+
+.company__grid {
+  margin-top: var(--section-margin);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 13px;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.company__information,
+.company__description {
+  flex-basis: 49.3%;
+}
+
+.company__description {
+  background: url("./assets/initbg.jpg") no-repeat center center;
+  background-size: cover;
+  color: aliceblue;
+  padding: 1.2em;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company__title {
+  font-weight: 600;
+  font-size: 3em;
+  margin-left: 0.8em;
+  margin-bottom: 0;
+}
+
+.company__subtext {
+  margin-left: 3.5em;
+  margin-top: 1.2;
+  margin-right: 1.3em;
+  color: hsl(255, 60%, 92%);
+}
+
+.company__information {
+  margin-left: 1.2em;
+  padding: 1.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information__text {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.links__list {
+  list-style: none;
+  color: #424242;
+}
+
+.company__image {
+  display: flex;
+  margin-top: var(--section-margin);
+  justify-content: center;
+  width: 100%;
+}
+
+.podcast {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: var(--section-margin);
+}
+
+.survey {
+  margin-top: var(--section-margin);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  height: 30em;
+  background-color: hsl(207, 25%, 92%);
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.survey__text,
+.survey__links {
+  flex-basis: 49%;
+}
+
+.survey__text {
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4em;
+}
+
+.text__title {
+  font-size: 1.4em;
+}
+
+.text__title span {
+  font-size: 2.3em;
+  font-weight: 600;
+  color: hsl(255, 60%, 80%);
+}
+
+.survey__links {
+  margin-left: 1.5em;
+  background: url("https://static.wixstatic.com/media/cd9bec_15c83bb49e7243f4a20ec1204a59463d~mv2.png/v1/fill/w_1245,h_820,al_c,q_90,usm_0.66_1.00_0.01/cd9bec_15c83bb49e7243f4a20ec1204a59463d~mv2.webp")
+    repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.survey__image {
+    width: 240px;
+    height: 269px;
+    position: absolute;
+    top: 5em;
+    left: 7em;
+}
+
+.survey__button {
+    width: 9em;
+    position: absolute;
+    bottom: 5em;
+    right: 7em;
+    display: inline-block;
+    text-align: center;
+    background-color: #5093d0;
+    color: hsl(255, 60%, 100%);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    padding: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.survey__button:hover {
+    background-color: hsl(207, 58%, 45%);
+
 }
