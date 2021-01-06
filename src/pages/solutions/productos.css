@@ -1,0 +1,21 @@
+.froud{
+    text-align: justify;
+    font-family: monospace;
+    padding: 100px;
+    color: rgb(0, 28, 51);
+}
+
+.info{
+    text-align: justify;
+    font-family: monospace;
+    padding: 100px;
+    color: rgb(0, 28, 51);
+}
+
+.modules{
+    bottom: 10px;
+    text-align: justify;
+    font-family: monospace;
+    padding: 90px;
+    color: rgb(0, 28, 51);
+}
