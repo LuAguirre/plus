@@ -20,3 +20,11 @@ body {
     max-width: 1400px;
     margin: auto;
 }
+
+.title{
+    font-family:Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(207, 58%, 39%);
+    padding: 10px;
+    margin-left: 15em;  
+    margin-top: 30px;
+}
